@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("/fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("/fonts/OpenSans/OpenSans-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("/fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("/fonts/OpenSans/OpenSans-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  src: url("/fonts/UbuntuMono/UbuntuMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  src: url("/fonts/UbuntuMono/UbuntuMono-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  src: url("/fonts/UbuntuMono/UbuntuMono-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Open Sans';
+}
+
+.remark-code, .remark-inline-code {
+  font-family: 'Ubuntu Mono';
+}
+
+.logoContainer {
+  position: absolute;
+  top: 1rem;
+}
+
+.logoRight {
+  right: 1rem
+}
+
+.logoLeft {
+  left: 1rem;
+}
+
+.logoContainer svg {
+  width: 4rem;
+  height: 4rem
+}
+
+.logoWhite svg {
+  fill: #fff;
+}
+
+.logoGreen svg {
+  fill: #62e52c;
+}
+
+.blueBg1 {
+  background-color: #253746;
+  color: #fff;
+}
+
+.greenBg1 {
+  background-color: #62e52c;
+  color: #fff;
+}
+
+.whiteBg1 {
+  color: #253746;
+}
+
+.whiteBg1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15vh;
+  bottom: 15vh;
+  width: 0.75vw;
+  background-color: #62e52c;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.green {
+  color: #62e52c;
+}
+
+.blue {
+  color: #253746;
+}
+
+.footnote  {
+  position: absolute;
+  bottom: 2vh;
+  font-size: small;
+}
+
+.centering {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.smallColumnLeft, .bigColumnLeft {
+  position: absolute;
+  left: 0;
+  padding-left: 2.1rem;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.smallColumnLeft {
+  width: 30%;
+}
+
+.bigColumnLeft {
+  width: 62%;
+}
+
+.bigImageRight, .smallImageRight {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.bigImageRight {
+  width: 62%;
+}
+
+.smallImageRight {
+  width: 33%;
+}
+
+.bottomImage {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 25%;
+}
+
+.bigImageRight img, .smallImageRight img, .bottomImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

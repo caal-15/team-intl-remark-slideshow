@@ -1,0 +1,29 @@
+{
+  "name": "team-intl-remark-slideshow",
+  "version": "0.0.1",
+  "description": "Contains Sildeshow tools for team international devs.",
+  "main": "index.htmls",
+  "scripts": {
+    "test": "",
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caal-15/team-intl-remark-slideshow.git"
+  },
+  "keywords": [
+    "slides",
+    "slideshow",
+    "remark",
+    "team-international"
+  ],
+  "author": "Carlos González (caal-15)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caal-15/team-intl-remark-slideshow/issues"
+  },
+  "homepage": "https://github.com/caal-15/team-intl-remark-slideshow#readme",
+  "dependencies": {
+    "serve": "^11.3.0"
+  }
+}
