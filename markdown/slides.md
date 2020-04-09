@@ -46,7 +46,7 @@ class: greenBg1, logoLeft
   .footnote[.bold[Slide classes for this slide:] .blue[`greenBg1, logoLeft`]]
 ]
 
-.bigImageRight[![Random Image](/img/image.jpg)]
+.bigImageRight[![Random Image](img/image.jpg)]
 
 ---
 class: whiteBg1, logoLeft
@@ -59,7 +59,7 @@ class: whiteBg1, logoLeft
   .footnote[.bold[Slide classes for this slide:] .blue[`whiteBg1, logoLeft`]]
 ]
 
-.smallImageRight[![Random Image](/img/image.jpg)]
+.smallImageRight[![Random Image](img/image.jpg)]
 
 ---
 class: blueBg1, middle, center
@@ -68,4 +68,4 @@ class: blueBg1, middle, center
 
 This shows an .green[image] at the bottom, because sometimes you want to do that, and there is no one who can stop you! so go ahead and make the world your own! :) (.bold[content class:] .green[`bottomImage`]).
 
-.bottomImage[![Random Image](/img/image.jpg)]
+.bottomImage[![Random Image](img/image.jpg)]
