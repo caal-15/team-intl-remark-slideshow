@@ -1,3 +1,11 @@
+class: introOutro
+
+.introOutroText[
+  # This is the title
+  ## This is the Subtitle
+]
+
+---
 class: blueBg1
 
 # Slide 1
@@ -69,3 +77,10 @@ class: blueBg1, middle, center
 This shows an .green[image] at the bottom, because sometimes you want to do that, and there is no one who can stop you! so go ahead and make the world your own! :) (.bold[content class:] .green[`bottomImage`]).
 
 .bottomImage[![Random Image](img/image.jpg)]
+
+---
+class: introOutro
+
+.introOutroText[
+  # Thank you!
+]

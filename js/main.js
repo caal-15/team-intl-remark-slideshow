@@ -3,16 +3,21 @@ function getLogoClassName(elementClassName) {
 
   if (
     elementClassName.includes('blueBg1') ||
-    elementClassName.includes('greenBg1')
+    elementClassName.includes('greenBg1') ||
+    elementClassName.includes('introOutro')
   ) {
     className += ' logoWhite'
   } else if (elementClassName.includes('whiteBg1')) {
     className += ' logoGreen'
   }
 
-  elementClassName.includes('logoLeft')
-    ? className += ' logoLeft'
-    : className += ' logoRight'
+  if (elementClassName.includes('logoLeft')) {
+    className += ' logoLeft'
+  } else if (elementClassName.includes('introOutro')) {
+    className += ' introLogo'
+  } else {
+    className += ' logoRight'
+  }
 
   return className
 }
@@ -39,7 +44,7 @@ function replaceTextAreaContents(fileUrl, textArea) {
       remark.create({highlightStyle: 'ir-black'});
       injectSvg(
         'svg/team_logo.svg',
-        document.querySelectorAll('.blueBg1, .greenBg1, .whiteBg1')
+        document.querySelectorAll('.blueBg1, .greenBg1, .whiteBg1, .introOutro')
       )
     })
 }
