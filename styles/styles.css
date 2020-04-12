@@ -65,26 +65,45 @@ body {
   z-index: 0;
 }
 
-.introLogo {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 50%;
+.introLogo,
+.introOutroText,
+.smallColumnLeft,
+.bigColumnLeft,
+.bigColumnRight,
+.smallColumnRight,
+.bigColumnRight,
+.smallColumnRight {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.introLogo,
+.smallColumnLeft,
+.bigColumnLeft,
+.introOutroText,
+.bigColumnRight,
+.smallColumnRight {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.introLogo, .smallColumnLeft, .bigColumnLeft {
+  left: 0;
+}
+
+.introOutroText, .bigColumnRight, .smallColumnRight {
+  right: 0;
+}
+
+.introLogo {
+  width: 50%;
   align-items: center;
 }
 
 .introOutroText {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
   width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -178,24 +197,8 @@ body {
   font-size: small;
 }
 
-.centering {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-flow: row;
-  align-items: center;
-  justify-content: center;
-}
-
 .smallColumnLeft, .bigColumnLeft {
-  position: absolute;
-  left: 0;
   padding-left: 2.1rem;
-  top: 0;
-  bottom: 0;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
 }
 
 .smallColumnLeft {
@@ -206,18 +209,11 @@ body {
   width: 62%;
 }
 
-.bigImageRight, .smallImageRight {
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-
-.bigImageRight {
+.bigColumnRight {
   width: 62%;
 }
 
-.smallImageRight {
+.smallColumnRight {
   width: 33%;
 }
 
@@ -229,7 +225,7 @@ body {
   height: 25%;
 }
 
-.bigImageRight img, .smallImageRight img, .bottomImage img {
+.bigColumnRight img, .smallColumnRight img, .bottomImage img {
   width: 100%;
   height: 100%;
   object-fit: cover;

@@ -66,12 +66,12 @@ class: greenBg1, logoLeft
 .smallColumnLeft[
   # Slide 5
 
-  This is a small column to the left, it can contain a small piece of .blue[text] and a big .blue[image] to the right. Content is .italic[vertically] centered :) (.bold[content class:] .blue[`smallColumnLeft`] for the text and .blue[`bigImageRight`] for the image).
+  This is a small column to the left, it can contain a small piece of .blue[text] and a big .blue[image] to the right. Content is .italic[vertically] centered :) (.bold[content class:] .blue[`smallColumnLeft`] for the text and .blue[`bigColumnRight`] for the image).
 
   .footnote[.bold[Slide classes for this slide:] .blue[`greenBg1, logoLeft`]]
 ]
 
-.bigImageRight[![Random Image](img/image.jpg)]
+.bigColumnRight[![Random Image](img/image.jpg)]
 
 ---
 class: whiteBg1, logoLeft
@@ -79,12 +79,12 @@ class: whiteBg1, logoLeft
 .bigColumnLeft[
   # Slide 6
 
-  This is a big column to the left, it can contain a bigger pieces of .blue[text] and a small .blue[image] to the right. Content is .italic[vertically] centered :) (.bold[content class:] .blue[`bigColumnLeft`] for the text and .blue[`smallImageRight`] for the image).
+  This is a big column to the left, it can contain a bigger pieces of .blue[text] and a small .blue[image] to the right. Content is .italic[vertically] centered :) (.bold[content class:] .blue[`bigColumnLeft`] for the text and .blue[`smallColumnRight`] for the image).
 
   .footnote[.bold[Slide classes for this slide:] .blue[`whiteBg1, logoLeft`]]
 ]
 
-.smallImageRight[![Random Image](img/image.jpg)]
+.smallColumnRight[![Random Image](img/image.jpg)]
 
 ---
 class: blueBg1, middle, center
