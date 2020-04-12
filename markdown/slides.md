@@ -6,6 +6,23 @@ class: introOutro
 ]
 
 ---
+class: blueBg1, middle, center
+
+# Content
+
+.contentTable[
+  |||
+  |---|---|
+  |.green[.bold[1. ]]|Blue Slide|
+  |.green[.bold[2. ]]|Green Slide|
+  |.green[.bold[3. ]]|White Slide|
+  |.green[.bold[4. ]]|Blue Centered Slide|
+  |.green[.bold[5. ]]|Small Column Slide|
+  |.green[.bold[6. ]]|Big Column Slide|
+  |.green[.bold[7. ]]|Image Bottom Slide|
+]
+
+---
 class: blueBg1
 
 # Slide 1

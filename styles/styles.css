@@ -234,3 +234,17 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+.contentTable {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contentTable td:first-child {
+  text-align: right;
+}
+
+.contentTable td:nth-child(2) {
+  text-align: left;
+}
